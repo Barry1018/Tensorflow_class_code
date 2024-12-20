@@ -6,8 +6,7 @@ import io
 import requests
 from flatbuffers.packer import float64
 from sklearn.model_selection import train_test_split
-
-
+#b2
 
 url = "https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/refs/heads/master/insurance.csv"
 s = requests.get(url).content

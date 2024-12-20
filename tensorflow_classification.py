@@ -5,6 +5,7 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 #Make 1000 samples
+#b2
 n_samples = 1000
 #Create circles
 X,y=make_circles(n_samples,

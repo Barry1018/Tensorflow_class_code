@@ -3,7 +3,7 @@ import pandas as pd
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
-
+#b2
 from tensorflow_model import X_train, y_train
 
 #Make 1000 samples

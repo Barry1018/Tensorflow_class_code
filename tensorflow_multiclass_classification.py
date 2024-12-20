@@ -24,22 +24,7 @@ test_data_norm = test_data/255.0
 #     plt.title(class_names[train_labels[rand_index]])
 #     plt.axis(False)
 # plt.show()
-##
-#Build Model
-#-Input shape = 28*28
-#-output shape = 10 classes
-tf.random.set_seed(42)
-model = tf.keras.Sequential([
-    tf.keras.layers.Flatten(input_shape=(28,28)),#724=28*28 Data need to be flatten
-    tf.keras.layers.Dense(4,activation="relu"),
-    tf.keras.layers.Dense(4, activation="relu"),
-    tf.keras.layers.Dense(10,activation=tf.keras.activations.softmax)
-])
-# model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(),
-#               optimizer=tf.keras.optimizers.legacy.Adam(),
-#               metrics=["accuracy"])
-# non_norm_history = model.fit(train_data,train_labels,epochs=10,
-#                              validation_data=(test_data,test_labels))
+
 ##
 model2 = tf.keras.Sequential([
     tf.keras.layers.Flatten(input_shape=(28,28)),#724=28*28 Data need to be flatten

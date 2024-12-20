@@ -1,7 +1,7 @@
 import tensorflow as tf
 import matplotlib.pyplot as plt
 from tensorflow.keras.utils import plot_model
-
+#b2
 #Evaluating
 X_new = tf.range(-100, 100, 4)
 y_new = X_new + 10

@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 import itertools
 from tensorflow_model import X_train, y_train
-
+#b2
 #Make 1000 samples
 n_samples = 1000
 #Create circles

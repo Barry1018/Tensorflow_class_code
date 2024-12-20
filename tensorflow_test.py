@@ -13,7 +13,7 @@ if gpus:
 #Creating Data
 import numpy as np
 import matplotlib.pyplot as plt
-
+###Heello github
 X = np.array([-7.0 , -4.0 , -1.0 , 2.0 , 5.0 , 8.7 , 9.5 , 6.3])
 y = np.array([3.0 , 6.0 , 9 , 12 , 15 , 18.7 , 19.5 , 16.3])
 

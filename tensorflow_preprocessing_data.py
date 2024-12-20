@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.compose import make_column_transformer
 from sklearn.preprocessing import MinMaxScaler,OneHotEncoder
 
-
+#b2
 url = "https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/refs/heads/master/insurance.csv"
 s = requests.get(url).content
 insurance = pd.read_csv(io.StringIO(s.decode('utf-8')))
